@@ -1,0 +1,148 @@
+.banner_container{
+    width: -webkit-fit-available;
+    background-color: black;
+    clip-path: polygon(0 0 , 100% 0, 100% 79%, 82% 100%, 0 100%);
+}
+
+.banner_container .banner{
+    width: 96%;
+    margin: 0px auto;
+}
+
+.banner_container .banner .image_slider{
+    width: 100%;
+    min-width: 100%;
+    /* display: flex;
+    overflow: hidden; */
+}
+
+.image1{
+    width: 100%;
+    clip-path: polygon(60% 0, 100% 0, 100% 60%, 86% 100%, 26% 100%);
+}
+
+.image2 , .image3 , .image4{
+    width: 100%;
+    clip-path: polygon(14% 0, 100% 0, 100% 60%, 86% 100%, 0 100%, 0 40%);
+}
+
+.name{
+    padding: 70px;
+    
+}
+
+.name .welcome{
+    margin-left: 6vw;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1.9rem;
+}
+
+.name .welcome_desc{
+    margin-left: 6vw;
+    color: white;
+   margin-top: 20px;
+   font-size: 1.2rem;
+}
+
+.image{
+    position: relative;
+}
+
+.slider_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+.white_text{
+    color: white;
+}
+
+.slider_content .inner_content{
+    font-size: 4.75rem;
+    font-weight: 800;
+    margin-bottom: 1.7rem;
+    line-height: 0.95;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner_btn{
+    width: fit-content;
+    border: 4px solid black;
+    padding: 0px 4px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner_btn svg{
+    margin-left: 16px;
+}
+
+.white_border{
+    border: 4px solid white;
+    color: white;
+}
+
+.white_border::after{
+    content: ".";
+    width: 60px;
+    height: 100%;
+    background-color: red;
+    color: transparent;
+    margin: 0px 8px;
+    clip-path: polygon(0 0 , 0 100% , 100% 50%);
+}
+
+.carousel-indicators{
+    display: block;
+    left: 0;
+    margin: 15px;
+}
+
+.carousel-indicators button.active{
+    background-color: black;
+}
+
+.changing button{
+    position: initial;
+    display: inline;
+    width: inherit;
+    margin: 0px 10px;
+}
+
+.changing{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+@media (max-width : 1120px) {
+    .slider_content{
+        position: initial;
+    }
+    .slider_content .inner_content{
+        color: white;
+        font-size: 2rem;
+    }
+    .banner_btn{
+        border: 4px solid white;
+        color: white;
+    }
+}

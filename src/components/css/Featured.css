@@ -1,0 +1,123 @@
+
+.main_container{
+    position: relative;
+    --initial :polygon(100% 0, 100% 0, 100% 100%, 0 100%, 0 28%);
+    transition: all .4s;
+}
+
+.main_container::before{
+    content: ".";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: var(--initial);
+}
+
+.main_container .featured_container{
+    padding: 100px 4vw;
+}
+
+.main_container .featured_container .featured .heading{
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , calc(50% - 5px)));
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.articles .card{
+    color: white;
+    background: black;
+    padding: 20px;
+    font-size: 1.3rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.articles .card .line{
+    height: 8px;
+    width: 100%;
+    background: white;
+    margin: 10px 0px;
+    z-index: 10;
+}
+
+.articles .card .cardhead{
+    padding: 0px 30px;
+    position: relative;
+}
+
+.articles .card .cardhead::before{
+    content: ".";
+    color: transparent;
+    background-color: #FF7F2F;
+    width: 30px;
+    height: 78%;
+    position: absolute;
+    left: -5px;
+    top: 8px;
+    clip-path: polygon(0 0 , 0 100% , 100% 0);
+}
+
+.articles .card .cardhead .card_heading{
+    font-weight: 700;
+}
+
+.articles .card .cardhead .card_subheading{
+    font-weight: 500;
+}
+
+.articles .card .card-body .main_text{
+    font-weight: 600;
+}
+
+.articles .card .card-body .main_desc{
+    font-size: 1.1rem;
+}
+
+.card .card-img-top{
+    transition: all .3s;
+}
+
+.card .card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.card_btn{
+    text-align: right;
+    cursor: pointer;
+}
+
+.card_btn span{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.card_btn span svg{
+    color: #FF7F2F;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.play_btn{
+    position: absolute;
+    border: 4px solid white;
+    padding: 0px 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width : 700px){
+    .articles{
+        grid-template-columns: repeat(auto-fit , minmax(300px , 90%));
+    }
+}
