@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/kasowitz-i-p/static/css/main.399f23a9.chunk.css",
+    "main.js": "/kasowitz-i-p/static/js/main.50d5df57.chunk.js",
+    "main.js.map": "/kasowitz-i-p/static/js/main.50d5df57.chunk.js.map",
+    "runtime-main.js": "/kasowitz-i-p/static/js/runtime-main.72149f58.js",
+    "runtime-main.js.map": "/kasowitz-i-p/static/js/runtime-main.72149f58.js.map",
+    "static/js/2.6fa46981.chunk.js": "/kasowitz-i-p/static/js/2.6fa46981.chunk.js",
+    "static/js/2.6fa46981.chunk.js.map": "/kasowitz-i-p/static/js/2.6fa46981.chunk.js.map",
+    "static/js/3.ecb03c2b.chunk.js": "/kasowitz-i-p/static/js/3.ecb03c2b.chunk.js",
+    "static/js/3.ecb03c2b.chunk.js.map": "/kasowitz-i-p/static/js/3.ecb03c2b.chunk.js.map",
+    "index.html": "/kasowitz-i-p/index.html",
+    "static/css/main.399f23a9.chunk.css.map": "/kasowitz-i-p/static/css/main.399f23a9.chunk.css.map",
+    "static/js/2.6fa46981.chunk.js.LICENSE.txt": "/kasowitz-i-p/static/js/2.6fa46981.chunk.js.LICENSE.txt",
+    "static/media/image1.fc99ccb3.jpg": "/kasowitz-i-p/static/media/image1.fc99ccb3.jpg",
+    "static/media/image10.a8776613.png": "/kasowitz-i-p/static/media/image10.a8776613.png",
+    "static/media/image11.164abc0f.jpg": "/kasowitz-i-p/static/media/image11.164abc0f.jpg",
+    "static/media/image12.ea3529f8.jpg": "/kasowitz-i-p/static/media/image12.ea3529f8.jpg",
+    "static/media/image13.92557032.jpg": "/kasowitz-i-p/static/media/image13.92557032.jpg",
+    "static/media/image2.de33c7e5.jpg": "/kasowitz-i-p/static/media/image2.de33c7e5.jpg",
+    "static/media/image3.9c34934d.jpg": "/kasowitz-i-p/static/media/image3.9c34934d.jpg",
+    "static/media/image4.b67212af.jpg": "/kasowitz-i-p/static/media/image4.b67212af.jpg",
+    "static/media/image5.b8103137.jpg": "/kasowitz-i-p/static/media/image5.b8103137.jpg",
+    "static/media/image6.546548d7.png": "/kasowitz-i-p/static/media/image6.546548d7.png",
+    "static/media/image7.56d00261.jpeg": "/kasowitz-i-p/static/media/image7.56d00261.jpeg",
+    "static/media/image8.4094958a.jpg": "/kasowitz-i-p/static/media/image8.4094958a.jpg",
+    "static/media/image9.083017eb.png": "/kasowitz-i-p/static/media/image9.083017eb.png",
+    "static/media/logo.e29451e1.svg": "/kasowitz-i-p/static/media/logo.e29451e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72149f58.js",
+    "static/js/2.6fa46981.chunk.js",
+    "static/css/main.399f23a9.chunk.css",
+    "static/js/main.50d5df57.chunk.js"
+  ]
+}
